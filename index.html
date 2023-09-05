@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <title>Disentanglement of Emotional Style and Speaker Identity for Expressive Voice Conversion* </title>
+  <title>DDDM-VC: Decoupled Denoising Diffusion Models with Disentangled Representation and Prior Mixup for Verfied Robust Voice Conversion* </title>
 </head>
 <style type="text/css">
   table {
@@ -46,11 +46,11 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-12">
-            <h1><a class="text-light"> Disentanglement of Emotional Style and Speaker Identity for Expressive Voice Conversion </h1>
+            <h1><a class="text-light"> DDDM-VC: Decoupled Denoising Diffusion Models with Disentangled Representation and Prior Mixup for Verfied Robust Voice Conversion </h1>
             <font size=3><span style="color:#000000">(This work was accepted by Interspeech 2022)<br><br>
-             <font size=5><span style="color:#FFFFFF"> Zongyang Du<sup> 1,2</sup>, Berrak Sisman<sup> 1</sup>, Kun Zhou<sup> 2</sup>, Haizhou  Li<sup> 2,3</sup> </br>
-             <font size=3><span style="color:#000000"> zongyang_du@mymail.sutd.edu.sg &nbsp berrak_sisman@sutd.edu.sg &nbsp zhoukun@u.nus.edu  &nbsp haizhouli@cuhk.edu.cn
-             </font><font size=4> <br> <br> <sup>1</sup>  Singapore University of Technology and Design, Singapore  <br> <sup>2</sup>  National University of Singapore, Singapore <br><sup>3</sup> The Chinese University of Hong Kong (Shenzhen), China  <br> <sup></font>  </a>  
+             <font size=5><span style="color:#FFFFFF"> Ifeoma Nwogu<sup> 1,2</sup>, Enjamamul Hoq<sup> 1</sup>, Danielle Omondi<sup> 2</sup>, Haizhou  Li<sup> 2,3</sup> </br>
+             <font size=3><span style="color:#000000"> inwogu@buffalo.edu &nbsp ehoq@buffalo.edu &nbsp drakosua@buffalo.edu  &nbsp haizhouli@cuhk.edu.cn
+             </font><font size=4> <br> <br> <sup>1</sup>  The University at Buffalo, Buffalo, New York  <br> <sup>2</sup>  National University of Singapore, Singapore <br><sup>3</sup> The Chinese University of Hong Kong (Shenzhen), China  <br> <sup></font>  </a>  
 
             <p>
               <div class="row">
@@ -122,26 +122,26 @@
                                    <th style="text-align:right;">   Surprise</th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/1_0015_001520.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/1_0015_001520_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/1_0015_001520_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/1_0017_001520.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -151,26 +151,26 @@
                                   <th scope="row">    </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/2_0020_001731.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/2_0020_001731_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/2_0020_001731_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/2_0017_001731.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -179,26 +179,26 @@
                                   <th style="text-align:right;">   Angry</th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/3_0011_000692.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/3_0011_000692_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/3_0011_000692_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/3_0013_000692.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -208,26 +208,26 @@
                                   <th scope="row">    </th>
                                                                     <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/4_0018_000691.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/4_0018_000691_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/4_0018_000691_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/4_0014_000691.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -242,26 +242,26 @@
                                   <th style="text-align:right;">   Sad</th>
                                                                     <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/5_0017_001392.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/5_0017_001392_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/5_0017_001392_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/5_0018_001392.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -271,26 +271,26 @@
                                   <th scope="row">    </th>
                                                                     <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/6_0011_001384.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/6_0011_001384_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/6_0011_001384_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/6_0013_001384.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -299,26 +299,26 @@
                                   <th style="text-align:right;">   Happy</th>  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/7_0020_000880.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/7_0020_000880_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/7_0020_000880_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/7_0017_000880.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -329,26 +329,26 @@
                                   <th scope="row">  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/8_0011_000967.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/8_0011_000967_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/8_0011_000967_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/8_0013_000967.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td><!-- single sentence -->
@@ -357,26 +357,26 @@
                                   <th style="text-align:right;">   Neutral</th>  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/9_0018_000336.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/9_0018_000336_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/9_0018_000336_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/9_0014_000336.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td><!-- single sentence -->
@@ -385,26 +385,26 @@
                                   <th scope="row">  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/10_0013_000331.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/10_0013_000331_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/10_0013_000331_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/10_0015_000331.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -418,26 +418,26 @@
                                    <th style="text-align:right;">   Surprise</th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/11_0020_001748.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/11_0020_001748_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/11_0020_001748_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/11_0016_001748.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -447,26 +447,26 @@
                                   <th scope="row">    </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/12_0020_001731.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/12_0020_001731_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/12_0020_001731_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/12_0016_001731.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -475,26 +475,26 @@
                                   <th style="text-align:right;">   Angry</th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/13_0020_000683.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/13_0020_000683_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/13_0020_000683_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/13_0016_000683.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -504,26 +504,26 @@
                                   <th scope="row">    </th>
                                                                     <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/14_0020_000690.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/14_0020_000690_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/14_0020_000690_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/14_0012_000690.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -538,26 +538,26 @@
                                   <th style="text-align:right;">   Sad</th>
                                                                     <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/15_0020_001386.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/15_0020_001386_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/15_0020_001386_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/15_0012_001386.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -567,26 +567,26 @@
                                   <th scope="row">    </th>
                                                                     <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/16_0017_001385.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/16_0017_001385_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/16_0017_001385_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/16_0012_001385.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -595,26 +595,26 @@
                                   <th style="text-align:right;">   Happy</th>  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/17_0018_001037.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/17_0018_001037_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/17_0018_001037_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/17_0016_001037.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -625,26 +625,26 @@
                                   <th scope="row">  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/18_0018_001040.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/18_0018_001040_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/18_0018_001040_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/18_0016_001040.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td><!-- single sentence -->
@@ -653,26 +653,26 @@
                                   <th style="text-align:right;">   Neutral</th>  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/19_0014_000337.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/19_0014_000337_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/19_0014_000337_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/19_0012_000337.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td><!-- single sentence -->
@@ -681,26 +681,26 @@
                                   <th scope="row">  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/20_0014_000095.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/20_0014_000095_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/20_0014_000095_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/20_0012_000095.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -716,26 +716,26 @@
                                    <th style="text-align:right;">   Surprise</th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/21_0012_001464.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/21_0012_001464_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/21_0012_001464_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/21_0016_001464.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -745,26 +745,26 @@
                                   <th scope="row">    </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/22_0012_001467.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/22_0012_001467_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/22_0012_001467_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/22_0016_001467.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -773,26 +773,26 @@
                                   <th style="text-align:right;">   Angry</th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/23_0016_000411.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/23_0016_000411_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/23_0016_000411_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/23_0012_000411.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -802,26 +802,26 @@
                                   <th scope="row">    </th>
                                                                     <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/24_0016_000405.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/24_0016_000405_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/24_0016_000405_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/24_0012_000405.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -836,26 +836,26 @@
                                   <th style="text-align:right;">   Sad</th>
                                                                     <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/25_0016_001097.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/25_0016_001097_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/25_0016_001097_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/25_0012_001097.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -865,26 +865,26 @@
                                   <th scope="row">    </th>
                                                                     <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/26_0016_001100.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/26_0016_001100_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/26_0016_001100_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/26_0012_001100.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -893,26 +893,26 @@
                                   <th style="text-align:right;">   Happy</th>  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/27_0012_000750.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/27_0012_000750_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/27_0012_000750_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/27_0016_000750.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
@@ -923,26 +923,26 @@
                                   <th scope="row">  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/28_0012_000755.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/28_0012_000755_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/28_0012_000755_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/28_0016_000755.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td><!-- single sentence -->
@@ -951,26 +951,26 @@
                                   <th style="text-align:right;">   Neutral</th>  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/29_0016_000054.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/29_0016_000054_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/29_0016_000054_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/29_0012_000054.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td><!-- single sentence -->
@@ -979,26 +979,26 @@
                                   <th scope="row">  </th>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Source/30_0016_000051.wav" type="audio/wav" />
+                                      <source src="sample-3s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
 
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/VQMIVC/30_0016_000051_gen.wav" type="audio/wav" />
+                                      <source src="sample-9s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Proposed/30_0016_000051_gen.wav" type="audio/wav" />
+                                      <source src="sample-12s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
                                   <td>
                                     <audio controls>
-                                      <source src="./Sample/Target/30_0012_000051.wav" type="audio/wav" />
+                                      <source src="sample-15s.mp3" type="audio/wav" />
                                       Your browser does not support the audio element.
                                     </audio>
                                   </td>
